@@ -7,5 +7,6 @@ customElements.define('element-details',
         .content;
       const shadowRoot = this.attachShadow({mode: 'open'})
         .appendChild(template.cloneNode(true));
+    }
   }
-});
+);
